@@ -26,4 +26,6 @@ public class Suggestion {
     @Column(name = "priority")
     private int priortiy;
 
+    @Column(name = "submitted_time")
+    private long submittedTime;
 }
